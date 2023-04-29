@@ -1,0 +1,57 @@
+/* General Styles ----------------------------------------------------------------------------------------------------------- */
+body
+{
+    width: 97%;
+    background-color: rgb(121, 59, 110);
+}
+
+.MainHeader
+{
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-weight: bold; */
+    font-size: 50px;
+    /* text-decoration-line: underline; */
+    text-shadow:rgb(0, 0, 0);
+}
+
+.Wrapper
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.button
+{
+    border: none;
+    border-color: green;
+}
+
+.button:hover
+{
+    background-color: red;
+}
+
+.button:active
+{
+    background-color: blue;
+}
+
+/* Size-Change----------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 750px)
+{
+    .MainHeader
+    {
+        color: rgb(0, 0, 0);
+    }
+
+    .Wrapper
+    {
+        display: flex;
+        flex-direction: row;
+    }
+}
